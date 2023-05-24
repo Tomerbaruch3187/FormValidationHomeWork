@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input{
+  width: 148px;
+}
+
+body {
+  font-family: 'Heebo', sans-serif;
+  background-color: #D4ADFC;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+.pdf-size{
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+p {
+  font-size: 25px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  display: flex;
+}
+
+input {
+  font-size: 20px;
+  margin-left: 20px;
+  border: none; 
+  background-color: #eeee;
+  border-bottom: 1px solid #000;
+ 
+}
+
+select {
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 10px;
+  background-color: #eeee;
+  border-radius: 50px;
+}
+
+button {
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 15px;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: rgba(221, 221, 221, 0.233);
+  color: rgb(22, 22, 22);
+  box-shadow: 1px 1px 21px 0px rgba(0,0,0,0.64);
+  -webkit-box-shadow: 1px 1px 21px 0px rgba(0,0,0,0.64);
+  -moz-box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.64);
+}
+
+.center {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: #eeee;
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 9px 13px 59px 1px #a0a0a0;
+}
+
+.firstValid {
+  display: flex;
+}
+
+span {
+  color: red;
+}
+
+option{
+    font-size: 15px;
+}
+
+#idPlaceHolder{
+  font-size: 15px;
+}
